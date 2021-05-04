@@ -1,0 +1,35 @@
+I was having an incredibly difficult time creating the code for the final project. It didn’t help that I didn’t have much of an understanding 
+of GUIs from our past lab. At first, I attempted to write the code for my final project as we would be expected, soon to realize that I wouldn’t 
+be able to complete the assignment. Then, I figured that I might be able to use one of the apps within MATLAB to complete the assignment. I had 
+created the assortment of buttons and features required for our final project, but it was a hit and miss for me when it came time to make the buttons
+and text boxes do anything. I was reading through the MATLAB manual on how to create GUIs but could not find the answers that I was looking for. At that
+moment, I decided to create what I am going to end up turning in. I figured if I could not complete the assignment the way it was intended, that I would
+be better off trying to write a code that worked for the majority of the requirements without the GUI. And I know that this was not the best idea, nor
+was it smart of me to spend so much time creating a code that completely different than what was assigned to me. I ended up writing a code that when it 
+is ran, it asks the user to input a variable for X and Y. It first say’s “Enter coordinate for X”, and after the user types in a number and hits enter it
+pops up with “Enter coordinate for Y”. I then wrote an assortment of if statements to make the code do different things depending on what the user inputs. 
+If the X and Y coordinates are the same, it will continue on with the next part of the code. If the X and Y coordinates are different, it will pop up with
+the message “Make sure X and Y are equal”, then prompt the user to input the x coordinate again. And when the user inputs the X and Y variables to 0 and 0, 
+it displays the message “Plot Cleared” and resets the plot of the function to be blank. The next message that the code will display if you input the same 
+variable for x and y is “what color do you want your coordinate to be? (1)Blue, (2)Red, or (3)green ”. When the user inputs the number 1, it will change
+the color of the coordinate to blue, 2 will change it to red, and 3 will change it to green. If the user inputs a variable less than 1 or more than 3, it 
+will display the message “Your options are (1)Blue, (2)Red, (3)Green” and will return them to the prompt stated earlier. If the user then inputs a variable
+that is acceptable it will display the message “What symbol do you want to use? (1)p, (2)o, or (3)* ”. If the user inputs 1 it will change the symbol to 
+a 5 point star, if the user inputs 2 it will change it to a “o”, and if they input a 3, it will change it to a “*”. If the user inputs a number less than 1
+or greater than 3 it will remind them of what their options are similar to how it did with the color. The last segment of code is written to change the 
+color and symbol of the point that the user selected based on the options that the user picked and then return to the beginning of the code to ask what
+coordinates they would like to plot. And that repeats itself, until the code is closed.
+A set of sample input data would be the following.
+
+>> Enter coordinate for X   2
+>> Enter coordinate for Y   2
+>> What color would you like your coordinate to be? (1)Blue, (2)Red, or (3)Green   3
+>> What symbol do you want to use? (1)p, (2)o, or (3)*   1
+
+The example inputs above would plot a green star at (2,2)
+
+I did not have an LA approve my project proposal because I was planning on just doing the most basic example of the final project. Although that is not how 
+it ended up working out for me in the end. I am undeclared as of right now, but I am most likely going to declare a civil engineering major this coming fall. 
+And I could see using GUIs to visualize data, manipulate data, and have a better understanding of the data in the given data set. Although I did not complete 
+the assignment the way it was supposed to be done, at least I can say that I am proud of the code that I did write. It was the first bit of code that I could 
+truly comprehend and see the errors that I was making and know how to figure out the issues that I had with it.
